@@ -15,6 +15,7 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: 25.0)
                 .stroke(lineWidth: 3)
             Text("Hello,world!")
+                .foregroundColor(Color.orange)
         }
         .padding(.horizontal)
         .foregroundColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
